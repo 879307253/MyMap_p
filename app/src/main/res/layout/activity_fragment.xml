@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FrameActivity" >
+
+    <fragment
+        android:id="@+id/fragment_main"
+        android:name="com.example.mymap.HomeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10" />
+
+    <fragment
+        android:id="@+id/fragment_func"
+        android:name="com.example.mymap.FuncFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10" />
+
+    <fragment
+        android:id="@+id/fragment_setting"
+        android:name="com.example.mymap.SettingFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10" />
+
+    <RadioGroup
+        android:id="@+id/bottomGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioHome"
+            style="@style/rg_btn_style"
+            android:drawableTop="@drawable/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rdo_home_label" />
+
+        <RadioButton
+            android:id="@+id/radioFunc"
+            style="@style/rg_btn_style"
+            android:drawableTop="@drawable/panda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="校医院" />
+
+        <RadioButton
+            android:id="@+id/radioSetting"
+            style="@style/rg_btn_style"
+            android:drawableTop="@drawable/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="紧急电话" />
+
+    </RadioGroup>
+</LinearLayout>

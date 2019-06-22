@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg7"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/homeTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:text="西南财经大学校医院简介"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/homeTextView3"
+        android:layout_width="365dp"
+        android:layout_height="263dp"
+        android:layout_gravity="center"
+        android:text="        柳林校区医院位于学生活动中心南面，校游泳池西面；光华校区医院位于光华大楼南面网球场侧。
+
+西南财大校医院是一家综合性、非盈利性医院，为省、市医保定点医院和我校大学生医保的门诊首诊医院。主要为全校师生和家属提供基本医疗和预防保健服务。医院全年开放，急诊实行24小时就诊制。医院员工坚守“以人为本、用心关怀、服务师生”的服务理念，坚持“提高师生健康水平，构建和谐校园”的办院宗旨，努力为全校师生的健康保驾护航。
+"
+        android:textSize="15sp" />
+    <TextView
+    android:id="@+id/homeTextView4"
+    android:layout_width="365dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="        服务时间："
+    android:textSize="15sp" />
+
+    <TextView
+    android:id="@+id/homeTextView5"
+    android:layout_width="365dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="上午8:10—12:00，下午14:10—18:00（冬季）
+
+                             上午8:10—12:00，下午14:40—18:30（夏季）
+"
+    android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/homeTextView6"
+        android:layout_width="365dp"
+        android:layout_height="105dp"
+        android:layout_gravity="center"
+        android:text="急诊电话：光华校区87352120、                                              柳林校区87092120
+                                                                                                                       办公（医保）室电话：87092687
+
+                                                  投诉电话： 87092687"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/homeTextView7"
+        android:layout_width="365dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:text="点击以下图片连接，进入校医院网页："
+        android:textSize="15sp" />
+
+
+    <RadioButton
+        android:id="@+id/imageButton8"
+
+        style="@style/rg_btn_style2"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:drawableTop="@drawable/zc1"
+        android:onClick="openEight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.787"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.659" />
+</LinearLayout>
